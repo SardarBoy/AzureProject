@@ -1,0 +1,9 @@
+{
+	"name": "datafactorygurtej",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0ec07c62-9240-4ea9-9df6-57e2d91d141b",
+		"tenantId": "8e7da144-78cc-435e-8697-89547c5d7f64"
+	}
+}
