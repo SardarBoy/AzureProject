@@ -131,7 +131,7 @@
 				}
 			},
 			{
-				"name": "If Condition1",
+				"name": "IfIncrementalData",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
@@ -143,6 +143,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "@greater(activity('AzureSQLtoLake').output.dataRead[0],0)",
+						"type": "Expression"
+					},
 					"ifTrueActivities": [
 						{
 							"name": "update_last_cdc",
