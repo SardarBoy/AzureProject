@@ -1,4 +1,4 @@
-# **Azure Data Engineering Project – End-to-End Medallion Architecture**
+# **Azure Data Engineering Project**
 
 ### ** Overview**  
 This project demonstrates a full **Azure Data Engineering pipeline** using a modern **Medallion Architecture (Bronze → Silver → Gold)**.  
@@ -48,11 +48,7 @@ SQL Database → ADF → ADLS Bronze → Databricks Silver → DLT Gold → Lake
   - Lineage tracking automatically handled by DLT  
 
 ---
-# **Deployment**
-Deployment workflow using **Databricks Asset Bundles (DAB)**:
+## Demo Video
 
-```bash
-databricks bundle init
-databricks bundle validate
-databricks bundle deploy --target dev
-databricks bundle deploy --target prod
+[![Watch the demo](https://img.youtube.com/vi/KLdV9Xpsp9o/0.jpg)](https://youtu.be/KLdV9Xpsp9o)
+
