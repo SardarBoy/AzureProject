@@ -6,8 +6,9 @@ It showcases **incremental ingestion**, **streaming transformations**, **CDC/SCD
 
 ---
 
-# **Architecture**
-SQL Database → ADF → ADLS Bronze → Databricks Silver → DLT Gold → LakeFlow Jobs 
+## Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/KLdV9Xpsp9o/0.jpg)](https://youtu.be/KLdV9Xpsp9o)
 
 # **Technologies Used**
 
@@ -23,6 +24,8 @@ SQL Database → ADF → ADLS Bronze → Databricks Silver → DLT Gold → Lake
 | **Deployment** | Databricks Asset Bundles (DAB), GitHub |
 | **Visualization** | Power BI (yet to do) |
 
+# **Pipeline**
+![Incremental Ingestion Pipeline](images/IncrementalIngestion.png)
 
 # **Layers Implemented**
 
@@ -48,10 +51,6 @@ SQL Database → ADF → ADLS Bronze → Databricks Silver → DLT Gold → Lake
   - Lineage tracking automatically handled by DLT  
 
 ---
-
-## Demo Video
-
-[![Watch the demo](https://img.youtube.com/vi/KLdV9Xpsp9o/0.jpg)](https://youtu.be/KLdV9Xpsp9o)
 
 
 ## Snippets
