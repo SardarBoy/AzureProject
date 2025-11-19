@@ -1,6 +1,6 @@
 # **Azure Data Engineering Project**
 
-### ** Overview**  
+### **Overview**  
 This project demonstrates a full **Azure Data Engineering pipeline** using a modern **Medallion Architecture (Bronze → Silver → Gold)**.  
 It showcases **incremental ingestion**, **streaming transformations**, **CDC/SCD processing**, **DLT pipelines**, and **production deployment** using **Databricks Asset Bundles**.
 
